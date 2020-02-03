@@ -1,6 +1,8 @@
-body {
+body {    
     background-image: url("../growingportfolio/contactbkgd.jpg");
     background-color: #cccccc;
+    background-repeat:no-repeat;
+    background-size:cover;
     padding-bottom: 100px;
    }
 
