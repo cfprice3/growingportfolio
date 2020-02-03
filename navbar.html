@@ -1,52 +1,90 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Charles Price, Web Developer</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-  <title>Hello, world!</title>
 </head>
-
 <body>
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-    <div class="container">
-      <a href="index.html" class="navbar-brand">LoopLab</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div id="navbarCollapse" class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="#home" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#explore-head-section" class="nav-link">Explore</a>
-          </li>
-          <li class="nav-item">
-            <a href="#create-head-section" class="nav-link">Create</a>
-          </li>
-          <li class="nav-item">
-            <a href="#share-head-section" class="nav-link">Share</a>
-          </li>
-        </ul>
-      </div>
+
+  <!--Navbar section-->
+  <nav class="navbar navbar-expand-lg navbar-expand-sm navbar-expand-xs navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Charles Price</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse navbar-right" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link" href="../growingportfolio/index.html">About</a>
+        <a class="nav-item nav-link" href="../growingportfolio/portfolio.html">Portfolio</a>
+        <a class="nav-item nav-link active" href="../growingportfolio/contact.html">Contact<span class="sr-only">(current)</span></a>
+      </div>  
     </div>
   </nav>
+  <!--End of nav bar-->
 
+<!--Beginning of container with rows and columns-->
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-md-8 bg-light">
 
+<!--About Me header, Row 1, Column 1-->
+          <div class="page-header text-info py-4">
+            <h1>About Me</h1>
+          </div>
+<!--Row 1, Row a-->          
+          <div class="row">
+<!--Profile picture, Row 1, Row a, Column 1-->
+            <div class="col-md-3 pb-4">
+              <img src="../growingportfolio/me2.jpg" alt="Charles Price Headshot" class="img-thumbnail">
+            </div>
 
-  <h1>Hello, world!</h1>
+<!--Bio Para 1, Row 1, Row a, Column 2-->            
+            <div class="col-md-9 pb-4">
+              <p>
+                My name is Charles Price and I was born in Tuscaloosa, Alabama.  I studied 
+                Telecommunications and Film at the University of Alabama.  Although I did not
+                complete my degree, I continued to have an interest in technology.  That interest
+                led me to sell electronics for a business called Electronic Express, and later to become 
+                a Sprint Sales Representative. 
+              </p>
+            </div>
+          </div>
+          
+<!--Bio Para 2, Row 1, Row b, Column 1-->          
+          <div class="row">
+            <div class="col-md-12">
+              <p>I now wish to seek a career in web development and programming, and better my 
+                understanding of how web applications function.  I am currently enrolled in the UNC of 
+                Charlotte Coding Bootcamp course where we will have a comprehensive knowledge of Full Stack 
+                web development.  I am excited to start my journey in this new career field.
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+              </p>
+            </div>
+        
+          </div>        
+        </div>
+      </div>
+    </div>
+<!--End of About Me section-->
+
 </body>
 
+<!--sticky footer made from navbar-->
+  <nav class="navbar fixed-bottom navbar-dark bg-dark py-4">
+    <span class="navbar-text navbar-center">Charles Price, Web Developer
+    </span>
+  </nav>
 </html>
