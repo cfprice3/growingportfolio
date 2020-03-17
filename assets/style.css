@@ -61,3 +61,8 @@ h1 {
     background-color: rgb(4, 202, 209);
 
 }
+
+#contCard {
+    border-color: aqua; 
+    border-width: 0.15rem;
+}
