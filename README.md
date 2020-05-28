@@ -1,3 +1,11 @@
+# **Growing Portfolio**
+
+#### *Created By Charles Price, (cfprice3)*
+#### email: cfprice3@gmail.com
+#### git url: https://github.com/cfprice3
+
+
+### *Project Description:*
 For this project we were told to build a bio/portfolio/contact webpage utilizing bootstrap.
 An important requirement was to make sure that the page content including images were responsive
 to breaks due to screen sizing.  This is important depending on the device being used to view the site,
@@ -16,3 +24,15 @@ One issue I ran into was that I could not get the "hamburger" style menu to drop
 As a bonus, we were encouraged to add a sticky footer to the page.  I was able to obtain  this using a simple text navbar code from bootstrap.
 
 Overall, this project took a while to get everything working and looking just how I wanted it to, but it was challenging in a good way.  I enjoyed playing with different properties to customize every little bit of my pages.  
+<br>
+
+*About Me Screenshot*
+![aboutme](assets/aboutMeSS.png)
+<br><br>
+
+*Portfolio Screenshot*
+![portfolio](assets/portfolioSS.png)
+<br><br>
+
+*Contact Me Screenshot*
+![contact](assets/contactSS.png)
